@@ -1,0 +1,49 @@
+:root {
+  --clr-primary-900: hsl(233, 47%, 7%);
+  --clr-secondary-800: hsl(244, 38%, 16%);
+  --clr-accent-600: hsl(277, 64%, 61%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-300: hsla(0, 0%, 100%, 0.6);
+
+  --fs-base: 15px;
+
+  --ff-base: "Inter", sans-serif;
+  --ff-accent: "Lexend Deca", sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --clr-main-heading: var(--clr-neutral-100);
+  --clr-main-paragraph: var(--clr-neutral-200);
+  --clr-stat-heading: var(--clr-neutral-300);
+
+  --clr-main-background: var(--clr-primary-900);
+  --clr-card-background: var(--clr-secondary-800);
+  --clr-accent: var(--clr-tertiary-600);
+
+  --fw-regular: var(--fw-400);
+  --fw-bold: var(--fw-700);
+
+  --ff-main-heading: var(--ff-accent);
+  --ff-description: var(--ff-base);
+
+  --fw-main-heading: var(--fw-bold);
+  --fw-description: var(--fw-regular);
+
+  --fs-description: var(--fs-base);
+}
+
+body {
+  font-size: var(--fs-base);
+  font-family: var(--ff-base);
+  background-color: var(--clr-main-background);
+  color: var(--clr-main-paragraph);
+  font-weight: var(--fw-regular);
+
+  /* for this project only */
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}

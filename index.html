@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Stats preview</title>
+
+    <!-- Google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="zero.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="stats">
+      <div class="stats__content">
+        <h1 class="stats__title">
+          Get <span id="accentify">insights</span> that help your business grow.
+        </h1>
+
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div class="flex-group">
+          <div class="flex-item">
+            <p class="stats__number">10k+</p>
+            <p class="stats__data-set">companies</p>
+          </div>
+
+          <div class="flex-item">
+            <p class="stats__number">314</p>
+            <p class="stats__data-set">templates</p>
+          </div>
+
+          <div class="flex-item">
+            <p class="stats__number">12m+</p>
+            <p class="stats__data-set">queries</p>
+          </div>
+        </div>
+      </div>
+      <picture class="stats__image">
+        <source
+          srcset="images/image-header-desktop.jpg"
+          media="(min-width: 40rem)"
+        />
+        <img
+          src="images/image-header-mobile.jpg"
+          alt="Get insights that help your business grow"
+        />
+      </picture>
+    </article>
+  </body>
+</html>
